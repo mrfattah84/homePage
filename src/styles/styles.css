@@ -57,10 +57,10 @@ body {
   transform: scale(1.05);
 }
 
-.work{
+.work {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(211px, 1fr));
+  grid-template-columns: 1;
   grid-gap: 10px;
   margin-top: 10px;
 }
@@ -156,4 +156,128 @@ a:hover {
 
 .footerDitails {
   margin: 0 20px;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+@media (min-width: 500px) {
+  .square {
+    background-color: #1d3557;
+    margin: 0 9vw;
+    margin-top: clamp(100px, 18vw, 170px);
+    padding: 2vh 4vw;
+    padding-top: 3vh;
+    display: block;
+    box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .myPic {
+    width: 31vw;
+    aspect-ratio: 1/1.2;
+  }
+  .name {
+    font-size: 4vw;
+    transform: translate(80%, -640%);
+    text-wrap: nowrap;
+  }
+
+  .container {
+    float: left;
+    transform: scale(155%);
+    transform-origin: 100% 100%;
+    margin: 10px;
+    margin-left: 9vw;
+    margin-bottom: -10px;
+  }
+
+  .title {
+    font-size: 6vw;
+    padding-bottom: 2vh;
+    padding-left: 45vw;
+  }
+
+  .about {
+    font-size: 3vw;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .titleWork {
+    font-size: 4vw;
+    margin-left: 10vw;
+    align-self: flex-start;
+  }
+
+  .work {
+    width: 80%;
+    grid-gap: 20px;
+    column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pName {
+    font-size: 3vw;
+    margin: 0px 10px;
+  }
+
+  .pDiscription {
+    font-size: 2vw;
+    margin: 0px 5px;
+    padding: 5px;
+  }
+
+  .footerImgWrapper {
+    display: flex;
+    background-color: #457b9d;
+    padding: 30px 40px;
+    gap: 12vw;
+  }
+
+  .footerImg {
+    width: 40%;
+    object-fit: cover;
+    aspect-ratio: 1/1.4;
+  }
+
+  .footer {
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+  }
+
+  .footer .logos {
+    display: flex;
+    gap: 25px;
+  }
+
+  .footerTitle {
+    font-size: 5vw;
+  }
+
+  .footer p {
+    font-size: 3vw;
+    margin-bottom: 10px;
+  }
+
+  .phoneNumber,
+  .gmail {
+    font-size: 3vw;
+    margin-top: 0px;
+  }
+
+  .footerDitails {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
