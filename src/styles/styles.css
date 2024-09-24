@@ -45,50 +45,71 @@ body {
 }
 
 .pCard {
-  width: 90vw;
   margin-bottom: 2vh;
-  box-shadow:5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  max-width: 400px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  min-width: 200px;
 }
 
-a{
-  width: 30px;
+.pCard:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
 }
 
-.title{
-  font-size: 13VW;
-  margin-top: 18PX;
+.work{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(211px, 1fr));
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+a {
+  width: 40px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.title {
+  font-size: 13vw;
+  margin-top: 18px;
   color: white;
 }
 
-.about{
+.about {
   color: white;
   padding: 0px 10px;
   margin: 0px 0px;
   font-size: 6vw;
 }
 
-.logos{
+.logos {
   display: flex;
   gap: 10px;
 }
 
-.titleWork{
+.titleWork {
   font-size: 10vw;
   margin-top: 40px;
   margin-bottom: 10px;
   color: white;
 }
 
-.pName{
+.pName {
   display: flex;
   justify-content: space-between;
   margin: 0px 20px;
-  font-size: 6vw;
+  font-size: 5vw;
   color: white;
 }
 
-.links{
+.links {
   display: flex;
   gap: 7px;
 }
@@ -97,15 +118,14 @@ a{
   width: 20px;
 }
 
-.pDiscription{
+.pDiscription {
   color: white;
-  font-size: 5vw;
+  font-size: 4vw;
   margin: 0;
   padding: 10px;
-  padding-bottom: 50px;
 }
 
-.footer{
+.footer {
   background-color: #457b9d;
   color: white;
   display: flex;
@@ -114,23 +134,26 @@ a{
   gap: 6px;
 }
 
-
-.footerTitle{
+.footerTitle {
   font-size: 15vw;
 }
 
-.footer p{
+.footer p {
   font-size: 6vw;
+  margin-bottom: 15px;
 }
 
-.footerImg{
+.footerImg {
   width: 100%;
 }
 
-.phoneNumber, .gmail{
+.phoneNumber,
+.gmail {
   align-self: flex-start;
+  font-size: 5vw;
+  margin-top: 5px;
 }
 
-.footerDitails{
+.footerDitails {
   margin: 0 20px;
 }
