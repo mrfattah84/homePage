@@ -5,7 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .header {
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .phoneNumber a,
-.gmail a{
+.gmail a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .phoneNumber a:hover,
-.gmail a:hover{
+.gmail a:hover {
   color: #1d3557;
   transition: all 0.3s ease-in-out;
 }
@@ -181,7 +181,7 @@ a:hover {
   position: relative;
 }
 
-.aboutContainer{
+.aboutContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,9 +189,8 @@ a:hover {
   position: relative;
 }
 
-
 @media (min-width: 500px) {
-  .header{
+  .header {
     height: 480px;
   }
 
@@ -205,7 +204,7 @@ a:hover {
     box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.5);
   }
 
-  .aboutContainer{
+  .aboutContainer {
     display: block;
   }
 
@@ -315,7 +314,7 @@ a:hover {
 }
 
 @media (min-width: 1000px) {
-  .header{
+  .header {
     height: 550px;
   }
 
@@ -360,7 +359,6 @@ a:hover {
     align-self: flex-end;
     margin: 10px 20px 20px;
   }
-  
 
   .aboutContainer {
     display: flex;
@@ -373,12 +371,12 @@ a:hover {
     font-size: 2vw;
   }
 
-  .titleWork{
+  .titleWork {
     font-size: 3vw;
     margin-left: 5vw;
   }
 
-  .work{
+  .work {
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
     row-gap: 40px;
@@ -393,7 +391,7 @@ a:hover {
     font-size: 1.5vw;
   }
 
-  .pName{
+  .pName {
     font-size: 2vw;
   }
 
@@ -402,11 +400,11 @@ a:hover {
     aspect-ratio: 1.5/1;
   }
 
-  .footerTitle{
+  .footerTitle {
     font-size: 3vw;
   }
 
-  .footerDitails p{
+  .footerDitails p {
     font-size: 2vw;
     margin: 0;
   }
@@ -416,15 +414,15 @@ a:hover {
     font-size: 2.5vw;
   }
 
-  .footer a{
+  .footer a {
     width: 70px;
   }
 
-  .footer{
+  .footer {
     justify-content: start;
   }
 
-  .footerImgWrapper{
+  .footerImgWrapper {
     padding: 8vh 5vw;
   }
 }
