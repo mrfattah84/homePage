@@ -313,7 +313,7 @@ a:hover {
   .container {
     float: none;
     margin: 0;
-    transform-origin: 100% 50%;
+    transform-origin: 100% 47.7%;
   }
 
   .name {
@@ -331,7 +331,7 @@ a:hover {
   .myPic {
     width: 18vw;
     margin: 0;
-    aspect-ratio: 1/1.1;
+    aspect-ratio: 1/1.16;
   }
 
   .footer .logos {
